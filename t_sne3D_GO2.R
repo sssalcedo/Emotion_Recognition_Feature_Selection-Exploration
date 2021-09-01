@@ -15,6 +15,7 @@ setwd ("C:/Users/jesus/Desktop/AMSTERDAM/psychology/Feature-Exploration/tSNE/cod
 gemaps_88 <- read_excel("C:/Users/jesus/Desktop/AMSTERDAM/psychology/Feature-Exploration/tSNE/code/2eGeMAPSv01b_Scaled_dutchFemales.xlsx")
 #---------------Different contexts (GeMaps88)------------------------------
 #normalisation
+#tSNE for two emotions
 gemaps_88[, c(4:6)] <- sapply(gemaps_88[, c(4:6)], as.numeric)
 c_matrix <- as.matrix(gemaps_88 [,4:6])
 X <- normalize_input(c_matrix)
