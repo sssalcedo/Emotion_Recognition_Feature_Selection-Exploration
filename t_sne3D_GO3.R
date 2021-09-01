@@ -16,6 +16,7 @@ gemaps_88 <- read_excel("C:/Users/jesus/Desktop/AMSTERDAM/psychology/Feature-Exp
 
 #---------------Different contexts (GeMaps88)------------------------------
 #normalisation
+#tSNE for ALL Emotions
 gemaps_88[, c(4:31)] <- sapply(gemaps_88[, c(4:31)], as.numeric)
 c_matrix <- as.matrix(gemaps_88 [,4:31])
 X <- normalize_input(c_matrix)
