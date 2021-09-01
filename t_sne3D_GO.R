@@ -16,7 +16,7 @@ gemaps_88 <- read_excel("C:/Users/jesus/Desktop/AMSTERDAM/psychology/Feature-Exp
 head(gemaps_88)
 #---------------Different contexts (GeMaps88)------------------------------
 #normalisation
-
+#tSNE for Main Emotions groups
 
 gemaps_88[, c(4:31)] <- sapply(gemaps_88[, c(4:31)], as.numeric)
 gemaps_88 
