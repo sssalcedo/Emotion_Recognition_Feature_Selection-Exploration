@@ -11,3 +11,7 @@ t_sne3D_GO3.R which executes tSNE for all emotions.
 PCA_GO2.R to execute the PCA algorithm on the data.
 
 RMSECV.R executes the RMSECV function.
+
+SOM.R executes Self Organizing Maps.
+
+K-Medoids.R executes K-Medoids Clustering.
