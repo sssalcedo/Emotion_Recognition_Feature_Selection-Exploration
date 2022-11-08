@@ -1,6 +1,5 @@
 # Emotion_Recognition_trimed_recordings
 
-t_sne3D_GO3.R which executes tSNE for all emotions.
 
 t_sne3D_GO.R which executes tSNE for Main emotional groups.
 
